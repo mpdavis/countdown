@@ -13,7 +13,7 @@ app = Flask(__name__, static_folder=os.path.join(PROJECT_ROOT, 'static'), static
 def index():
 
     start = datetime.datetime(2013, 5, 20)
-    end = datetime.datetime(2013, 6, 10)
+    end = datetime.datetime(2013, 6, 10, 8)
 
     context = {
         'start': time.mktime(start.timetuple()),
